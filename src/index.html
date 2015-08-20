@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The Hendon Herald - Sunderland's Premier News Sauce</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/flexslider.css">
+    <link rel="icon" href="img/favicon.ico">
+
+    <script src="js/ContactFormValidation.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/jquery.flexslider-min.js"></script>
+    <script src="js/slider.js"></script>
+</head>
+<body>
+    <div class="content_container">
+        <header>
+            <img src="img/heraldlogo.png" alt="Hendon Herald Logo"><h1>The Hendon Herald</h1><nav>
+                <ul>
+                    <li><a href="index.html">News</a></li>
+                    <li><a href="index.html">Local</a></li>
+                    <li><a href="index.html">Sport</a></li>
+                    <li><a href="index.html">Stuff</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <article id="first_article">
+                <h2>Spectral Figure Found in Mowbray Park</h2>
+                <img src="img/Spectral%20Figure%20Discovered%20in%20Mowbray%20park.jpg"
+                     alt="Photoshoped image of a ghost by a cannon"
+                ><div class="article_content">
+                    <h3>Spirit Eyes Cannon</h3>
+
+                    <p>The Ghost of General Havlock appears to be considering using the canon left in Mowbray park - in protest at moving his bin collection to Tuesdays instead of Thursday.</p>
+
+                    <p>The cannon, left pointing at the civic centre in case of another infestation of the Rage virus seems to be the target of the Victorian Millitaryman Shade's attentions .</p>
+
+                    <p>When pressed, the wraith said "I'm buried at Lucknow, so getting here to put the bins out for Tuesday is impossible, the connecting flights just aren't there."</p>
+
+                    <p>Queen Victoria, Greyfriars Bobby and Sunderland City council were unavailable for comment.</p>
+                </div>
+
+            </article>
+            <article>
+                <img src="img/CrookedBlandfordStreet.jpg" alt="Crooked Blandford Street"
+                ><div class="article_content">
+                    <h3>Blandford Street Found "Wonky"</h3>
+                    <p>Keen shoppers were underterred as Blandford Street at the heart of the city was seen to be a bit skew-wiff.From
+                        Herbet Brown's to Debenhams, the whole street appeared tilted off to the rught somehow.</p>
+
+                    <p>We contacted a spokesperson for H&amp;T Pawnbrokers said "To be honest, we haven't noticed
+                        anything unusal outside.
+                        There has been no drop off in trade, punters are here putting their wedding rings on tick just a desperately
+                        as usual."</p>
+
+                    <p>Our roving photohrapher, Nathanial Ventricle, took this shocking image moments after picking up his new tripod
+                        form Chas Eagle's and Sons. Nathanial said "You know what's odd, the people on Blandford Street look wonky
+                        too- normally they'd be upri...oh.. wait..."</p>
+                </div>
+            </article>
+            <article>
+
+                <img src="img/AmysWinehouse.jpg" alt="Amy's Winehouse, Hendon"
+                ><div class="article_content">
+                    <h3>Amy's Winehouse Urged into Rehab</h3>
+                    <p>Amy's Winehouse has said "no no no" to calls to enter rehab after complaints of rowdy behaviour about the
+                        songstressly-named offy.</p>
+
+                    <p>An neighbour, who wishes to remain anonymous, has seen Amy's Winehouse selling the following in broad daylight:</p>
+                    <ul>
+                        <li>Fine Wines & Champagnes</li>
+                        <li>Rough Ciders & Spirits</li>
+                        <li>Terry's Chocolate Orange, which no one ever seems to buy</li>
+                    </ul>
+
+                    <p>Amy's Winehouse ain't got the time to make a comment, adding the retail outlet's daddy thinks she's fine.</p>
+                </div>
+            </article>
+
+        </main><aside>
+        <h3>Recent News</h3>
+            <div class="flexslider">
+                <ul class="slides">
+                    <li><figure><img src="img/Rotator/Confusing%20Building.jpg" alt="What is it? I don't know."><figcaption>Sunderland Building Too Confusing</figcaption></figure></li>
+                    <li><figure><img src="img/Rotator/A%20Level.jpg" alt="Yet more leaping 18 Year Olds"><figcaption>A-Levels mean hackneyed girl pics</figcaption></figure></li>
+                    <li><figure><img src="img/Rotator/Wong%20Hendon%20Found.jpg" alt="Turns out it's full of busies"><figcaption>Incorrect Hendon Found</figcaption></figure></li>
+                </ul>
+            </div>
+            <h3>Pointlessness Leage</h3>
+            <table>
+                <tr>
+                    <th>Club</th>
+                    <th>Points</th>
+                </tr>
+                <tr>
+                    <td>Club 1</td>
+                    <td>7</td>
+                </tr>
+                <tr>
+                    <td>Club 2</td>
+                    <td>6</td>
+                </tr>
+                <tr>
+                    <td>Club 3</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>Club 4</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>Club 5</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>Club 6</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>Club 7</td>
+                    <td>1</td>
+                </tr>
+            </table>
+            <h3>Contact Us</h3>
+            <form name="ContactForm">
+                <label for="email">Your E-Mail:</label><br>
+                <input type="email" name="email" id="email"><br>
+                <label for="message">Your Message:</label><br>
+                <textarea type="text" name="message" id="message"></textarea><br>
+                <button type="button" onclick="validate()">Submit</button><br>
+            </form>
+        </aside>
+
+        <footer>
+            <img src="img/Our%20Editor.jpg" alt="Liam's Significant Other"
+            ><div class="footer_editor_content">
+                <h3>About our Editor</h3>
+                <p>Our cheif editor, Ahab Armour has had a long career in the media, despite his youth. Starting off
+                   taxing dafties for 20p, who he assured he needed the money to get home to his dying grandmother.
+                    He soon set to  work selling the Big Issue, then graduated on to harder, more potent local
+                    newspapers. Ahab has been given a Regional Press Award for his scoop "Ryhope man catches train"
+                    and a restraining order after the incident with the inflatible crocodile, the vodka and small
+                    arms we don't talk about, but no one will ever forget. Even though we tried hard. So, so hard.
+                </p>
+            </div>
+            <p class="footer_copyright">&copy; Copyright 2014, Hendon Herald. Please don't knick our stuff, we've
+                already had two sets of alloys taken this week.</p>
+
+        </footer>
+    </div>
+</body>
+</html>
